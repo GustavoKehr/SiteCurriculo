@@ -1,202 +1,182 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Adiciona um ícone na aba do navegador -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- Adiciona um arquivo CSS externo -->
+    <link rel="stylesheet" href="style.css">
     <title>Site Currículo</title>
-
-    <style type="text/css">
-        P {
-
-            background-color: transparent;
-
-            color: black;
-
-            width: 225px;
-
-            font-size: 48px;
-
-            border: 2px solid red;
-
-        }
-
-        div {
-
-            background-color: transparent;
-
-            color: black;
-
-            font-size: - 78px;
-
-            width: 450px;
-
-        }
-    </style>
 </head>
-
 <body>
-
-    <table border="1">
-
-        <h1> Currículo </h1>
+    <table>
         <tr>
             <td rowspan="2">
-                <img src="https://i.ibb.co/fvfdWmG/ei.jpg" height="200px">
+                <!-- Adiciona uma imagem -->
+                <img src="https://i.ibb.co/fvfdWmG/ei.jpg" alt="minha foto" height="238px;">
             </td>
-            
-            <td colspan="5">
-                <h3>
-                    <div>Nome: Gustavo Casanova Kehr de Oliveira</div>
-                </h3>
-            </td>
-
-        </tr>
-
-        <tr>
-
-            <td colspan="5">
-                <b>CELULAR:</b> (+55) 11 997164041
-            </td>
-
-        </tr>
-
-        <tr>
-
-            <td colspan="6">
-                <b>Objetivo:</b> Busco oportunindades no mercado de trabalho como estágiario em desenvolvimento de softwares
-            </td>
-
-        </tr>
-
-        <tr>
-
-            <td colspan="2"><b>SKILLS</b></td>
-
-            <td rowspan="2" colspan="2"><b>EXPERIENCIAS:<br></b>
-                Durante o curso do SENAI, fiz um <b>programa de cadastro de pessoas</b>,<br>
-                contando com o cadastro de CPF e CNPJ. Programa feito em C#, usando SQL como banco de dados<br><br>Outro projeto realizado foi utilizado API REST com KRUD 
+                <td colspan="5">
+                    <h2 class="section1">
+                        Currículo para Professora Renata
+                        <br>
+                        <br>
+                        <br>
+                        Nome: Gustavo Casanova Kehr de Oliveira
+                    </h2>
                 </td>
-
-            <td rowspan="2" colspan="2"><b>IDIOMAS:<br></b>
-                Portugues - Nativo<br>
-                Inglês - Avançado<br>
-                Espanhol - Básico
-            </td>
-
         </tr>
-
         <tr>
-
-            <td colspan="2"><b>SOFT:</b></b><br>
-                Comunicativo<br>
-                Capaz de se adaptar rapidamente<br>
-                Trabalho em equipe<br>
-                Criativo<br>
-                Proativo<br>
-                Ético<br>
-                Positivo
+            <td colspan="5" class="cel">
+                <!-- Adiciona o número de telefone -->
+                <strong>CELULAR:</strong> (+55) 11 997164041
             </td>
-
         </tr>
-
         <tr>
-
-            <td rowspan="2"><b>HARD:</b><br></b>
-                Conhecimentos em: JavaScript<br>
-                CSS<br>
-                C#<br>
-                C<br>
-                HTML 5<br>
-                CSS3<br>
-                .Net<br>
-                Git<br>
-                GitHub<br>
-                Scrum<br>
-                Kanban<br>
-                SQL Server<br
-                >Rest API
+            <td colspan="6" class="obj">
+                <ul><strong>Objetivo: </strong>
+                    <!-- Adiciona o que busca como objetivo -->
+                    <li>Busco oportunindades no mercado de trabalho como estágiario em desenvolvimento de softwares
+                    </li>
+                </ul>
             </td>
-
-            <td rowspan="2"><b>CURSOS: </b><br>Formado em Desenvolvimento <b>back-end</b> pela Escola SENAI de Informática | Curso Profissionalizante | Julho de 2022 - Feveiro de 2023
-                <br>
-                <br><br>
-                Atualmente cursando <b>ADS</b> (Análise e Desenvolvimento de Sistemas) na Universidade Braz Cubas | Graduação | 2023 - 2024
-</td>
-
-            <td colspan="5"><b>ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤREDES SOCIASIS</b></Td>
-
         </tr>
-
         <tr>
-
-            <td colspan="2" ><b>ㅤ
-                ㅤ
-                ㅤ
-                ㅤ
-                ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ
-                GITHUB</b><br><br>Projetos realizados no github: Cadastro de Pessoas Fisicas e Pessoas Júridicas em JavaScript<br> e outro com o mesmo intuíto em C# .Net 6 com interações com Rest API<br><br>
-                <b>Principal Projeto:</b> API REST KRUD para Projetos e Usuários em c# .net<br><br>
-                <b>Features:</b> Criação, listagem, atualização e deleção de projetos e usuários<br>
-                <b>Tecnologias utilizadas:</b>
-                .NET 6.0
-                C#
-                Bibliotecas<br>
-                <b>Organização do projeto:</b>
-                
-                Projeto feito e organizado com o método de login em primeiro lugar, logo após podemos utilizar o KRUD nos projetos e usuários<br>
-
-                <b>Pré-requisitos de instalação:</b>
-                
-                Não existe pré requisito<br>
-
-                <b>Execução da apliação:</b>
-                
-                debugar no swagger/insomnia/postman<br>
-                <b>Erros comuns:</b>
-                
-                Não contém erros registrados<br>
-                <b>Contribuidores:</b>
-                
-                Gustavo Kehr
+            <td colspan="2"><b>SKILLS</b></td>
+            <td rowspan="2" colspan="2"><strong>EXPERIENCIAS:<br></strong>
+                <!-- Adiciona as experiencias -->
+                <ul>
+                    <li>
+                        Durante o curso do SENAI, fiz um <strong>programa de cadastro de pessoas</strong><br>
+                        contando com o cadastro de CPF e CNPJ. Programa feito em C#, usando SQL como banco de dados
+                    </li>
+                    <li>
+                        Outro projeto realizado foi utilizado API REST com KRUD
+                    </li>
+                </ul>
+                </td>
+            <td rowspan="2" colspan="2"><strong>IDIOMAS:<br></strong>
+                <!-- Adiciona os idiomas falados -->
+                <ul>
+                    <li>Portugues - Nativo</li><br>
+                    <li>Inglês - Avançado</li><br>
+                    <li>Espanhol - Básico</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" class="soft"><strong>SOFT:</strong><br>
+                <!-- Adiciona as SOFT Skills -->
+                <ul type="square">
+                    <li>Comunicativo</li>
+                    <li>Capaz de se adaptar rapidamente</li>
+                    <li>Trabalho em equipe</li>
+                    <li>Criativo</li>
+                    <li>Proativo</li>
+                    <li>Positivo</li>
+                    <li>Ético</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="2" class="hard"><strong>HARD:</strong><br>
+                <!-- Adiciona as HARD Skills -->
+                <ul type="square">
+                    <li>Conhecimentos em: JavaScript</li>
+                    <li><abbr title="Cascading Style Sheets">CSS</abbr></li>
+                    <li>C#</li>
+                    <li>C</li>
+                    <li>HTML 5</li>
+                    <li>CSS3</li>
+                    <li>.Net</li>
+                    <li>Git</li>
+                    <li>GitHub</li>
+                    <li>Scrum</li>
+                    <li>Kanban</li>
+                    <li>SQL Server</li>
+                    <li>Rest API</li>
+                </ul>
+            </td>
+            <td rowspan="2" ><strong>
+            <ul type="circle">
+                <strong> <header class="curso">Cursos:</header> </strong>
+                <!-- Adiciona os Cursos -->
                 <br>
+                <li></strong>Formado em Desenvolvimento <em><strong>back-end</strong></em> pela <em>Escola SENAI de Informática</em> | Curso Profissionalizante | Julho de 2022 - Feveiro de 2023
+                </li>
                 <br>
-                <br>
-            <a href="https://github.com/GustavoKehr" target="_blank"><img src="https://i.ibb.co/n8QS1N3/unnamed.png"
-                style="float: right; 
-                    text-align: right; 
-                    position: absolute; 
-                    top: 800px; 
-                    left: 1500px;" 
-                    width="65">
+                    <li>Atualmente cursando <em><strong>ADS</strong> (Análise e Desenvolvimento de Sistemas)</em> <br> na <em>Universidade Braz Cubas</em> | Graduação | 2023 - 2024
+                    </li>
+            </ul>
+        </td>
+            <td colspan="5"><strong>REDES SOCIAIS<strong></td>
+                <!-- Adiciona as Redes Sociais -->
+        </tr>
+        <tr>
+            <td colspan="2" ><strong> GITHUB </strong>
+                <!-- Adiciona o GitHub e projeto principal -->
+                <ul>
+                    <li>Projetos realizados no github: Cadastro de Pessoas Fisicas e Pessoas Júridicas em JavaScript e outro com o mesmo intuíto em C# .Net 6 com interações com Rest API
+                    </li>
+                    <br>
+                    <li><strong>Principal Projeto:</strong> API REST KRUD para Projetos e Usuários em c# .net
+                    </li>
+                    <br>
+                    <strong>Features: </strong>Criação, listagem, atualização e deleção de projetos e usuários
+                    <li>
+                        <strong>Tecnologias utilizadas:</strong>
+                        .NET 6.0|
+                        C#|
+                        Bibliotecas C#
+                    </li>
+                    <br>
+                    <li>
+                        <strong>Organização do projeto:</strong>
+                        
+                        Projeto feito e organizado com o método de login em primeiro lugar, logo após podemos utilizar o KRUD nos projetos e Usuários
+                    </li>
+                    <br>
+                    <li><strong>Pré-requisitos de instalação:</strong>
+                        Não existe pré requisito
+                    </li>
+                    <br>
+                    <li>
+                        <strong>Execução da apliação:</strong>
+                        
+                        debugar no swagger/insomnia/postman
+                    </li>
+                    <br>
+                    <li>
+                        <strong>Erros comuns:</strong>
+                        
+                        Não contém erros registrados<br>
+                    </li>
+                    <br>
+                    <li>
+                        <strong>Contribuidores:</strong>
+                        
+                        Gustavo Kehr
+                    </li>
+                    
+                </ul>
+                <!-- Adiciona o botão com link para o GitHub -->
+            <a href="https://github.com/GustavoKehr" target="_blank"><img src="https://i.ibb.co/n8QS1N3/unnamed.png" alt="github" class="git">
                 </a>
             </td>
-            
-            <td><b>LINKEDINㅤ</b>
+            <td><strong>LINKEDIN</strong>
+                <!-- Adiciona o botão com link para o Linkedin -->
                 <br>
-                <a href="https://www.linkedin.com/in/gustavo-kehr-6a3356248/" target="_blank"><img src="https://i.ibb.co/phNsmhP/download.png" 
-                    style="float: right; 
-                    text-align: right; 
-                    position: absolute; 
-                    top: 730px; 
-                    left: 1660px;"
-                    width="50">
+                <a href="https://www.linkedin.com/in/gustavo-kehr-6a3356248/" target="_blank"><img src="https://i.ibb.co/phNsmhP/download.png"  alt="linkedin" class="linkedin"> 
                 </a>
             </td>
-
-            <td><b>INSTAGRAMㅤ</b></td>
+            <td><strong>INSTAGRAM</strong></td>
+            <!-- Adiciona o botão com link para o Instagram -->
             <br>
-            <a href="https://www.instagram.com/gustavokehr_/"target="_blank"><img src="https://i.ibb.co/72Mt0cV/instagram.png" alt="instagram"
-                style="float: right;
-                text-align: right; 
-                position: absolute; 
-                top:730px; 
-                left: 1770px;" 
-                width="50">
+            <a href="https://www.instagram.com/gustavokehr_/"target="_blank"><img src="https://i1.wp.com/dolitec.com.br/wp-content/uploads/2017/03/instagram-Logo-PNG-Transparent-Background-download-1.png" alt="instagram" class="instagram">
             </a>
         </tr>
     </table>
 </body>
-
 </html>

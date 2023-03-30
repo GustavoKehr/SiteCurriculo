@@ -1,0 +1,99 @@
+body {
+    background: black;
+}
+
+div {
+
+    background-color: transparent;
+
+    color: white;
+
+    font-size: - 78px;
+
+    width: 450px;
+
+}
+
+table {
+    text-align: left;
+    border: 2px; 
+    border-style: solid;
+    border-collapse: collapse;
+    border-color: white;
+    color: white;
+}
+
+td {
+    text-align: center;
+    vertical-align: top;
+    border: 2px;
+    border-style: solid;
+}
+
+tr {
+    border: 2px;
+    border-style: solid;
+}
+
+.soft {
+    text-align: left;
+}
+
+.hard {
+    text-align: left;
+}
+.curso {
+    font-size: 24px;
+    text-align: left;
+}
+
+.section1{
+    text-align: left;
+    font-size: 24px;
+    color: white;
+}
+
+.obj{
+    vertical-align: left;
+    text-align: left;
+}
+
+.linke{
+    vertical-align: left;
+    text-align: left;
+}
+
+.cel {
+    vertical-align: left;
+    text-align: left;
+}
+
+.instagram {
+    float: right;
+    position: absolute; 
+    text-align: center; 
+    vertical-align: left;
+    width: "50px";
+    top: 620px; 
+    height: 80px;
+    right: 18px;
+}
+
+.linkedin {
+    float: right; 
+    position: absolute;
+    text-align: center;
+    vertical-align: left; 
+    top: 630px; 
+    width: 60px;
+    right: 125px;
+}
+
+.git {
+    float: right; 
+    text-align: right; 
+    position: absolute; 
+    top: 845px; 
+    right: 230px;
+    width: 100px;
+}
