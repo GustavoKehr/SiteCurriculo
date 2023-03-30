@@ -1,5 +1,8 @@
+
 body {
-    background: black;
+    background: linear-gradient(320deg, black, black, grey);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    
 }
 
 div {
@@ -22,6 +25,7 @@ table {
     border-color: white;
     color: white;
 }
+
 
 td {
     text-align: center;
@@ -74,7 +78,7 @@ tr {
     text-align: center; 
     vertical-align: left;
     width: "50px";
-    top: 620px; 
+    top: 640px; 
     height: 80px;
     right: 18px;
 }
@@ -84,10 +88,18 @@ tr {
     position: absolute;
     text-align: center;
     vertical-align: left; 
-    top: 630px; 
+    top: 650px; 
     width: 60px;
-    right: 125px;
+    right: 115px;
 }
+
+/* .linkedin {
+    float: right; 
+    position: absolute;
+    text-align: center;
+    vertical-align: left; 
+    inset: 810px;
+} */
 
 .git {
     float: right; 
